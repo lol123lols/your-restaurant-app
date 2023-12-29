@@ -1,0 +1,7 @@
+[
+    {"id": "1", "name": "Pizza Margherita", "price": 250, "spiceLevel": "Mild"},
+    {"id": "2", "name": "Pasta Carbonara", "price": 200, "spiceLevel": "Low"},
+    {"id": "3", "name": "Lasagna", "price": 300, "spiceLevel": "Medium"}
+   
+  ]
+  

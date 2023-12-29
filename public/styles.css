@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('path/to/italian-village-image.jpg') center center fixed; 
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+h1 {
+    color: #dc3545; /* Red color for headings */
+    text-align: center;
+    padding: 20px 10px; /* Adjust padding for smaller screens */
+    margin-bottom: 20px; /* Reduce margin for smaller screens */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for list items */
+    border: 1px solid #dee2e6; /* Gray border for list items */
+    margin-bottom: 10px;
+    padding: 10px; /* Adjust padding for smaller screens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+button {
+    background-color: #007bff; /* Blue background for buttons */
+    color: #fff; /* White text color for buttons */
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Chili spice level animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.chili {
+    display: inline-block;
+    font-size: 18px; /* Adjust chili icon size for smaller screens */
+    margin-right: 5px;
+    animation: pulse 1s infinite;
+    transform-origin: center;
+    color: #dc3545; /* Red color for chili */
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    li {
+        padding: 8px; /* Further adjust padding for smaller screens */
+    }
+}
